@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso de francês para brasileiros. Aprenda francês de forma eficaz e divertida.">
+    <title>Aprenda Francês - Curso para Brasileiros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Aprenda Francês</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <h2>Aprenda Francês de Forma Rápida e Eficaz</h2>
+        <p>Curso completo para brasileiros que querem aprender francês, com aulas interativas e conteúdo exclusivo.</p>
+        <a href="curso.html" class="btn">Comece Agora</a>
+    </section>
+
+    <!-- Sobre o Curso -->
+    <section class="sobre-curso">
+        <h3>O que você vai aprender?</h3>
+        <p>O curso oferece uma abordagem simples e direta para você aprender francês, com aulas teóricas, práticas e interativas. Aprenda de forma eficiente, no seu tempo!</p>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <h3>O que os alunos dizem:</h3>
+        <div class="depoimento">
+            <p>"Adorei o curso! Agora consigo me comunicar em francês sem dificuldades." - Ana Silva</p>
+        </div>
+        <div class="depoimento">
+            <p>"O conteúdo é muito claro e as aulas são super interativas!" - João Pereira</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Aprenda Francês | Todos os direitos reservados</p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
