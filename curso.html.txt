@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Francês - Módulos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Aprenda Francês</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Módulos do Curso -->
+    <section class="modulos-curso">
+        <h2>Escolha seu módulo de aprendizado:</h2>
+        <ul>
+            <li><a href="#">Módulo 1: Introdução ao Francês</a></li>
+            <li><a href="#">Módulo 2: Gramática Básica</a></li>
+            <li><a href="#">Módulo 3: Conversação Básica</a></li>
+            <li><a href="#">Módulo 4: Francês Avançado</a></li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Aprenda Francês | Todos os direitos reservados</p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
