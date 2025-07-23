@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Aprenda Francês</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Aprenda Francês</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulário de Login -->
+    <section class="form-login">
+        <h2>Entre na sua conta</h2>
+        <form action="#" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit" class="btn">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="#">Cadastre-se aqui</a></p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Aprenda Francês | Todos os direitos reservados</p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
